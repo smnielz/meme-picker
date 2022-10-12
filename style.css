@@ -1,0 +1,156 @@
+html,
+body{
+    margin: 0;
+    font-family: Karla, sans-serif;
+}
+
+header{
+    background-color: #67595E;
+}
+
+.header-inner{
+    display: flex;
+    align-items: center;
+    width: 370px;
+    margin: 0 auto;
+    gap: 15px;
+    padding: 10px 0 0 0;
+}
+
+.pumpkin-img{
+    width: 80px;
+}
+
+h1,
+h2,
+h3{
+    text-align: center;
+}
+
+h1{
+    font-size: 1.75rem;
+}
+
+h2{
+    font-size: 1rem;
+}
+
+h3{
+    font-size: 1.1875rem;
+}
+
+h1,
+h2{
+    color: #EED6D3;
+    margin: 0;
+}
+
+.controls-container{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+    align-items: stretch;
+    /*ovo nije kod njih */
+}
+
+.emotion-radios{
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.radios{
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-bottom: 1px solid #bcbcbc;
+}
+
+.radios:last-child{
+    border-bottom: none;
+}
+
+label{
+    font-size: .875rem;
+    padding: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="radio"]{
+    cursor: pointer;
+}
+
+.gifs-check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.highlight{
+    background-color: #fff0ee;
+    color: #bd301d;
+    font-weight: bold;
+    accent-color: #bd301d;
+}
+
+.gifs-check-label{
+    width: unset;
+    margin-right: 5px;
+}
+
+.get-image-btn{
+    background-color: #67595E;
+    color: #EED6D3;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 15px 19px;
+    font-family: Karla, sans-serif;
+}
+
+
+.meme-modal{
+    display: none;
+    margin: auto;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #67595e;
+    border-radius: 5px;
+    background-color: #EED6D3;
+    width: 420px;
+    height: 490px;
+}
+
+.cat-img{
+    max-width: 340px;
+    max-height: 420px;
+    border-radius: 5px;
+}
+
+.close-meme-modal-btn{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #555;
+    color: #555;
+    font-size: .875rem;
+    padding: 2px 6px;
+}
+
+.close-meme-modal-btn:hover{
+    cursor: pointer;
+}
+
+.meme-modal-inner{
+
+}
