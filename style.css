@@ -151,6 +151,36 @@ input[type="radio"]{
     cursor: pointer;
 }
 
-.meme-modal-inner{
+@media(max-width:500px){
+    h1{
+        font-size: 2rem;
+    }
+    
+    h2{
+        font-size: 1.25rem;
+    }
+    
+    h3{
+        font-size: 1.5em;
+    }
+    
+    label{
+        font-size: 1rem;}
 
+    .get-image-btn{
+        font-size: 26px;
+    }
+
+    .header-inner{
+        width: 80%;
+    }
+
+    .pumpkin-img{
+        width: 30%;
+    }
+
+    .controls-container{
+        width: 80%;
+    }
+    
 }
